@@ -1,0 +1,151 @@
+/*================================================================================
+	Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+	Version: 2.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+/* Register page design style  */
+
+.app-content {
+	background: #17212b;
+}
+/* Logo style  */
+.brand-logo img {
+	text-align: center;
+}
+.brand-logo img {
+	height: 35px;
+	width: 150px;
+}
+.login-head,
+.forgot-head,
+.register-head {
+	font-size: 25px !important;
+	margin-bottom: 5px !important;
+}
+
+/* .sign-log-btn {
+	background-color: #2B5378 !important;
+	border-color: #2B5378 !important;
+} */
+
+.btn-primary:hover {
+	background-color: #035349 !important;
+	border-color: #035349 !important;
+}
+
+/* form input style  */
+.auth-forgot-password-form input:focus,
+.auth-login-form input:focus,
+.auth-register-form input:focus {
+	border-color: #fff !important;
+}
+
+.input-group:focus .input-group-text {
+	border: 1px solid #fff !important;
+}
+.link-clr {
+	color: #e67e22 !important;
+}
+.form-check-input:checked {
+	background-color: #035349 !important;
+	border-color: #035349 !important;
+}
+
+/* Main menu design style  */
+
+.brand-logo img {
+	max-height: 25px !important;
+	max-width: 130px !important;
+}
+.dark-layout .main-menu .collapse-toggle-icon {
+	color: #035349 !important;
+}
+.main-menu.menu-dark .navigation > li.active > a {
+	background: #035349 !important;
+	box-shadow: none;
+}
+.main-menu.menu-dark .navigation > li ul .active {
+	background: #035349 !important;
+	box-shadow: none;
+}
+.form-control:focus {
+	border-color: #fff !important;
+}
+.dark-layout .select2-container .select2-selection--multiple .select2-selection__choice {
+	color: #fff !important;
+	background: #000 !important;
+}
+.dark-layout .select2-container .select2-selection--multiple .select2-selection__choice .select2-selection__choice__remove {
+    color: #fff !important;
+}
+.select2-container--classic.select2-container--focus .select2-selection--multiple, .select2-container--default.select2-container--focus .select2-selection--multiple {
+	border-color: #fff !important;
+}
+.select2-container--classic .select2-selection--single, .select2-container--default:focus .select2-selection--single {
+	border-color: #fff !important;
+}
+.select2-container--classic.select2-container--open .select2-selection--single, .select2-container--default.select2-container--open .select2-selection--single {
+	border-color: #fff !important;
+}
+.price-change {
+	background-color: transparent;
+	color: #fff;
+	width: 50%;
+	padding: 5px;
+	border-radius: 8px;
+}
+
+.dark-layout input.form-control:not(:focus), .dark-layout select.form-select:not(:focus), .dark-layout textarea.form-control:not(:focus) {
+    border-color: #404656;
+}
+
+.mb-50 {
+	margin-bottom: 0px !important;
+}
+.link-bottom {
+	margin-bottom: 5px;
+}
+.mrg-l {
+	margin-left: 8px !important;
+	margin-top: 8px !important;
+}
+.mrg-r {
+	margin-right: 8px !important;
+	margin-top: 8px !important;
+}
+.custom-select {
+	padding: 9px 25px !important;
+}
+.myclass {
+	margin-top: 15px !important;
+}
+
+.csm-25 {
+	margin-right: 25px !important;
+}
+
+.top-25 {
+	margin-top: 5px !important;
+}
+.top-12 {
+	margin-bottom: 12px;
+}
+.custom-bg {
+	background-color: #171d305d;
+	padding: 40px;
+	border-radius: 10px;
+}
+
+
+@media screen and (max-width: 600px;){
+	.custom-bg {
+		padding: 10px !important;
+	}
+}
